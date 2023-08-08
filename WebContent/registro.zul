@@ -1,0 +1,23 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal" apply="registrocomposer.RegistroComposer">
+<hbox style="width:100%">
+	<cell width="50%">
+		<label style="font-weight:bold" value="Registro"></label><separator /><separator /><separator />
+		<label value="Usuario: "></label><textbox id="txtUsuarioRegistro"></textbox><separator /><separator />
+		<label value="Password: "></label><textbox id="txtPasswordRegistro" type="password"></textbox><separator /><separator />
+		<label value="Confirmar Password: "></label><textbox id="txtPasswordConfirmar" type="password"></textbox><separator /><separator />
+		<label value="Numero de usuario: #"></label><label id="lblNumeroUsuario" value="0"></label><separator /><separator />
+		<button id="btnRegistrar">Registrar</button>
+	</cell>
+	<cell width="50%">
+		<label style="font-weight:bold" value="Inicio sesión"></label><separator /><separator /><separator />
+		<label value="Numero de Usuario: "></label><intbox id="intNumero"></intbox><separator /><separator />
+		<label value="Usuario: "></label><textbox id="txtUsuarioInicio"></textbox><separator /><separator />
+		<label value="Password: "></label><textbox id="txtPasswordInicio" type="password"></textbox><separator /><separator />
+		<label value="Captcha: "></label><label id="lblCaptcha"></label><textbox id="txtCaptcha"></textbox><separator /><separator />
+		<button id="btnInicio">Iniciar sesión</button>
+	</cell>
+</hbox>
+</window>
+</zk>

@@ -1,0 +1,23 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<style src="./css/display.css"/>
+<window title="new page title" border="normal">
+<div class="bloque">
+	<div class="bloquesHijos">
+		hola 123
+	</div>
+</div>
+<div class="bloque">
+	hola mundo hola
+</div>
+<div class="bloque">
+	
+</div>
+<div class="bloque">
+	
+</div>
+<div class="bloque">
+	
+</div>
+</window>
+</zk>

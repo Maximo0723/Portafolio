@@ -1,0 +1,92 @@
+<?page title="Auto Generated index.zul"?>
+<zk>
+<style src="./css/portafolio.css"/>
+<hbox style="width:100%" class="linea">
+	<cell width="20%"><image src="/imagenes/presentacion.jpg" width="175px" height="175px"/></cell>
+	<cell width="80%">
+		<label style="font-weight:bold">Máximo Olivares</label><separator />
+		<label>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+		 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+		 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		 </label>
+	</cell>
+</hbox><separator /><separator /><separator />
+<hbox class="contenedorProyecto linea">
+	<cell>
+		<label style="font-weight:bold">Mis conocimientos</label><separator />
+		<label>
+		Mis conocimientos son el uso basico de eclipse que seria la creacion de proyectos, paquetes y clases. 
+		el uso basico de el framework zk que sería el uso de los archivos .zul junto con sus composers y los componentes que serian los objetos con los que interactua el usuario. 
+		El uso basico de java y metodos sencillos. La nomenclatura usada en programacion. Uso del metodo Main. Lo que son los identificadores, parametros y uso de operadores. 
+		El uso de el metodo switch y scanner. Bucles como for y while. El como instanciar un objeto. El uso de arreglos basicos. El manejo de exepciones con try-catch.
+		</label>
+	</cell>
+</hbox><separator /><separator /><separator />
+<label style="font-weight:bold">Proyectos</label><separator /><separator /><separator />
+<hbox width="100%" class="linea">
+	<cell class="contenedorPortafolio"><image src="/imagenes/calculadora.jpeg" class="imagenPortafolio"/></cell>
+	<cell width="80%">
+		<a href="/Calculadora.zul"><label style="font-weight:bold">Calculadora</label></a><separator />
+		<label>
+		Primero se creó la pantalla con una etiqueta de texto que al inicio siempre mostrará un 0 y 
+		todos los botones con los numeros y signos para hacer las operaciones, 
+		luego en una clase controladora se asignaron los metodos a los numeros para que el usuario 
+		al hacer click en cada uno se muestre en la pantalla, al igual que asignar metodos a los 
+		botones de operaciones para que al presionarlos se guardarde el numero en pantalla y se elimine
+		para que el usuario pueda ingresar el segundo numero en la operacion y al presionar 
+		el boton igual se guardare el segundo numero, se haga la operacion entre los 2 numeros y 
+		finalmente el resultado se muestre en pantalla.
+		</label>
+	</cell>
+</hbox><separator /><separator /><separator /><separator />
+<hbox width="100%" class="linea">
+	<cell width="20%">
+		<div class="contenedorPortafolio">
+			<image src="/imagenes/login.jpeg" class="imagenPortafolio"/>
+			<div class="contenedorTexto">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</div>
+		</div>
+	</cell>
+	<cell width="80%">
+		<a href="/login.zul"><label style="font-weight:bold">Login</label></a><separator />
+		<label>
+		Primero se crearon las etiquetas de texto usuario y contraseña, las cajas de texto para que el usuario pueda ingresar el usuario y contraseña junto con el boton de iniciar sesión,
+		luego en una clase controladora asignar variables a las cajas de texto y al boton para con eso crear un metodo que 
+		al presionar el boton verifique que el usuario sea "administrador" y la contraseña sea "adm" y en caso de que no sea 
+		verificar si el usuario es "cliente" y la contraseña "123" y en caso de que no sea ninguna de las 2 mande un mensaje de error.
+		</label>
+	</cell>
+</hbox><separator /><separator /><separator />
+<hbox width="100%" class="linea">
+	<cell class="contenedorPortafolio">
+		<image src="/imagenes/generadorpassword.jpeg" class="imagenPortafolio"/>
+	</cell>
+	<cell width="80%">
+		<a href="/generadorpassword.zul"><label style="font-weight:bold">Generador de Contraseñas</label></a><separator />
+		<label>
+			Primero se creó una caja de texto y boton, luego en una clase controladora se creó un metodo que al hacer click en el botón "Generar Contraseña" 
+			llamaria al metodo generarpassword de otra clase que en bucle agarraria un caracter aleatorio de una variable de caracteres hasta lograr tener 8 caracteres 
+			y luego imprimirlos en la caja de texto.
+		</label>
+	</cell>
+</hbox><separator /><separator /><separator />
+<hbox width="100%" class="linea">
+	<cell class="contenedorPortafolio">
+		<image src="/imagenes/formulario.jpeg" class="imagenPortafolio"/>
+	</cell>
+	<cell width="80%">
+		<a href="/formulario.zul"><label style="font-weight:bold">Diseño basado en maqueta</label></a><separator />
+		<label>
+			Se programo un diseño de un formulario basado en una maqueta, primero se crearon las cajas y contenedores 
+			donde se pondria la informacion, imagenes, cajas de texto y botones, luego se lleno la informacion de los contenedores y botones 
+			que fueron los mismos de la maqueta, despues en un archivo css se asigno la posicion de los contenedores 
+			para que fuera lo mas similar a la maqueta, tambien en ese archivo se asigno una imagen de fondo y los diseños de los botones 
+			de redes sociales con sus respectivos iconos y demas botones con sus colores, luego se le asigno a las cajas de texto un placeholder 
+			que muestra iconos y texto, y por ultimo se agrego un efecto sobre la imagen de referencia usando hover haciendo que se muestre al poner el cursor sobre ella.
+		</label>
+	</cell>
+</hbox>
+</zk>

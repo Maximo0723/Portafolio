@@ -1,0 +1,14 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal" apply="practica2composer.Practica2Composer">
+<label value="Comenzar"></label><checkbox id="chHabilitar"></checkbox><separator />
+<label value="Nombre:"></label><textbox id="txtNombre"></textbox><separator />
+<label value="Fecha Nacimiento:"></label><datebox id="dtFechaNacimiento"></datebox><separator />
+<label value="Edad:"></label><intbox id="intEdad"></intbox><separator /><separator />
+<label value="Jugar videojuegos"></label><checkbox id="chPasatiempo1"></checkbox><separator />
+<label value="Salir al parque"></label><checkbox id="chPasatiempo2"></checkbox><separator />
+<label value="Hacer ejercicio"></label><checkbox id="chPasatiempo3"></checkbox><separator />
+<button id="btnPasatiempos">Botón</button><separator />
+<label id="lblResultados"></label>
+</window>
+</zk>

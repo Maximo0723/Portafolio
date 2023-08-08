@@ -1,0 +1,47 @@
+<?page title="Formulario" contentType="text/html;charset=UTF-8"?>
+<zk>
+<?link rel="stylesheet" type="text/css" href="./css/formulario.css"?>
+<?link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"?>
+<window title="" border="normal">
+<hbox width="100%" height="100vh">
+	<cell width="20%">
+	</cell>
+	<cell align="center" class="contenedorPrincipal">
+<!-- 	Primer columna -->
+		<div class="bloque bloqueIzquierdo">
+			<div width="100%">
+				<div class="contenido">
+					Welcome Back!
+				</div>
+				<div>
+					To keep connected with us please
+					login with your personal info
+				</div><separator /><separator /><separator />
+				<button class="boton">SIGN IN</button>
+			</div>
+		</div>
+		<div class="bloque">
+			<div>
+				Create Account
+			</div><separator /><separator />
+			<button class="fa fa-twitter" style="font-size:24px"></button><button class="fa fa-facebook" style="font-size:24px"></button><button class="fa fa-linkedin" style="font-size:24px"></button><separator /><separator /><separator />
+			<div>
+				or use your email for registration
+			</div><separator /><separator /><separator />
+			<textbox placeholder="&#xf1ae; Nombre" Style="font-family: Arial, FontAwesome"></textbox><separator />
+			<textbox placeholder="&#xf2b6; Email" Style="font-family: Arial, FontAwesome"></textbox><separator />
+			<textbox placeholder="&#xf023; Contraseña" Style="font-family: Arial, FontAwesome"></textbox><separator />
+			<button class="boton">SIGN UP</button>
+		</div>
+	</cell>
+	<cell width="20%">
+		<div class="bloqueImagen">
+			<div class="textoImagen">
+				Ver imagen de referencia
+			</div>
+			<image src="/imagenes/imagenreferencia.png" class="imagen"></image>
+		</div>
+	</cell>
+</hbox>
+</window>
+</zk>

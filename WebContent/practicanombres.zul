@@ -1,0 +1,14 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal" apply="practicanombres.PracticaNombres">
+<label value="Nombre1"></label><textbox id="txtNombre1"></textbox><separator />
+<label value="Nombre2"></label><textbox id="txtNombre2"></textbox><separator />
+<label value="Nombre3"></label><textbox id="txtNombre3"></textbox><separator />
+<label value="Nombre4"></label><textbox id="txtNombre4"></textbox><separator />
+<label value="Nombre5"></label><textbox id="txtNombre5"></textbox><separator />
+<button id="btnGuardar">Guardar nombres</button><separator />
+<label value="Mostrar nombre #"></label><intbox id="intNumero"></intbox><separator />
+<button id="btnMostrar">Mostrar</button><separator />
+<label  id="lblMostrarNombre" value="El nombres es: "></label>
+</window>
+</zk>

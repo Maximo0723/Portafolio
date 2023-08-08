@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+
+.contenedorPortafolio{
+	display: block;
+	transition: transform .7s ease-in-out;
+	position: relative;
+	right: 0;
+	/*ease-in comienza lento y termina rapido*/
+	/*ease-out comienza rapido y termina lento*/
+	/*ease-in-out comienza lento, acelera y termina lento*/
+	/*linear lo hace a una velocidad constante*/
+}
+.imagenPortafolio{
+	width: 175px;
+	height: 175px;
+	transition: transform .7s ease-in-out;
+}
+.contenedorPortafolio:hover .imagenPortafolio{
+	transform: rotate(10deg) scale(1.3);
+	top: 0;
+	left: 0;
+}
+.contenedorPortafolio:hover .contenedorTexto{
+	opacity: 1;
+}
+.z-page{
+	padding: 50px;
+	background-color: rgb(14,20,27);
+	color: white;
+	width: 100vw;
+	height: 100vw;
+	overflow: scroll;
+}
+.contenedorTexto{
+	height: 175px;
+	width: 175px;
+	position: absolute;
+	opacity: 0;
+	color: red;
+	top: 0;
+	left: 0;
+}
+.linea{
+	height: 200px;
+}

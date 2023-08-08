@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+@font-face{
+	font-family: 'fuenteZombie';
+	src: url('/fuentes/Graphik-Super.woff')format('woff');
+}
+.contenedorPrincipal{
+	display: flex;
+	jusitfy-content: center;
+	align-items: center;
+	border: 5px solid black;
+	width: 60vw;
+}
+.bloque{
+	position: relative;
+	text-align:center;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.bloqueIzquierdo{
+	background-image: url('../imagenes/fondoazul.png');
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	jusitfy-content: center;
+	align-items: center;
+}
+.fa{
+	background-color: white;
+	border-radius: 50%;
+	color: black;
+}
+.boton{
+	background-color: rgb(101,178,172);
+	border-radius: 20px;
+	color: white;
+	border: 1px solid white;
+	padding: 10px 50px 10px 50px;
+}
+.contenido{
+	font-family: 'fuenteZombie';
+}
+.bloqueImagen{
+	width: 400px;
+	height: 100px;
+	right: 20px;
+	top: 0;
+}
+.bloqueImagen:hover .imagen{
+	opacity: 1;
+}
+.textoImagen{
+	float: right;
+	background-color: rgb(101,178,172);
+	text-align: center;
+	border-radius: 20px;
+	padding: 50px 10px 50px 10px;
+	width: 50%;
+}
+.imagen{
+	position: fixed;
+	right: 0vw;
+	width: 30vw;
+	opacity: 0;
+	border: 5px solid black
+}

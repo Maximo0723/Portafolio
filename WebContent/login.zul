@@ -1,0 +1,8 @@
+<?page title="Login" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="Login" border="normal" apply="logincomposer.LoginComposer">
+<label value="Usuario:"></label><textbox id="txtUsuario"></textbox><separator />
+<label value="Contraseña:"></label><textbox id="txtContraseña" type="password"></textbox><separator />
+<button id="btnInicio">Iniciar Sesión</button>
+</window>
+</zk>
